@@ -611,11 +611,10 @@ Transform:
   m_GameObject: {fileID: 417102531}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.717386, y: 22.205292, z: -3.997282}
+  m_LocalPosition: {x: 4.741, y: 22.205292, z: -3.997282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1229688580}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &430159570
@@ -1470,19 +1469,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 417102535}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 826774375396288875, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977654463598742864, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
+      propertyPath: startDelay.scalar
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4549816217977685619, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.692614
+      value: 13.41
       objectReference: {fileID: 0}
     - target: {fileID: 4549816217977685619, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.634758
+      value: 18.570534
       objectReference: {fileID: 0}
     - target: {fileID: 4549816217977685619, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.0927181
+      value: -7.09
       objectReference: {fileID: 0}
     - target: {fileID: 4549816217977685619, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1512,6 +1519,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5412763213565599425, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -14.070001
+      objectReference: {fileID: 0}
     - target: {fileID: 8905704374978851214, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
       propertyPath: m_Name
       value: boule_a_neige_effect
@@ -1521,11 +1532,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
---- !u!4 &1229688580 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4549816217977685619, guid: 59da1032922f0034cb033a823ab0d715, type: 3}
-  m_PrefabInstance: {fileID: 1229688579}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1659752149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1786,7 +1792,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3667985327850811086, guid: 639cc750e5efae24e9883c04bb80b165, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.57
+      value: 32.9
       objectReference: {fileID: 0}
     - target: {fileID: 3667985327850811086, guid: 639cc750e5efae24e9883c04bb80b165, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1891,3 +1897,4 @@ SceneRoots:
   - {fileID: 1659752149}
   - {fileID: 1027843633}
   - {fileID: 3892624708459546258}
+  - {fileID: 1229688579}
