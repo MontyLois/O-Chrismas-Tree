@@ -4,17 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
-public class hang_decoration : MonoBehaviour
+public class hang_star : MonoBehaviour
 {
     [SerializeField] 
     private XRGrabInteractable script;
-    
-    private Rigidbody rb;
 
-    
+    [SerializeField] 
+    private Transform star_position;
+
+    private Rigidbody rb;
+    private Transform tr;
+
     private void Start()
     {
         rb = this.GetComponent<Rigidbody>();
+        tr = this.transform;
     }
     
 
@@ -26,6 +30,7 @@ public class hang_decoration : MonoBehaviour
             rb.useGravity = false;
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
+            tr.SetPositionAndRotation(star_position.position, star_position.rotation);
         }
     }
 
