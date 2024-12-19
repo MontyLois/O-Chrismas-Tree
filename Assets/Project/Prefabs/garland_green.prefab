@@ -2130,7 +2130,7 @@ HingeJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7553816149299348847}
-  m_ConnectedBody: {fileID: 0}
+  m_ConnectedBody: {fileID: 8318119988909005369}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
